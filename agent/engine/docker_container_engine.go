@@ -32,7 +32,7 @@ import (
 	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/emptyvolume"
 	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 	"github.com/cihub/seelog"
-	"github.com/docker/docker/pkg/parsers"
+	// "github.com/docker/docker/pkg/parsers"
 
 	docker "github.com/fsouza/go-dockerclient"
 )
@@ -198,7 +198,7 @@ func (dg *dockerGoClient) pullImage(image string, authData *api.RegistryAuthenti
 	pullDebugOut, pullWriter := io.Pipe()
 	defer pullWriter.Close()
 
-	repository, tag := parsers.ParseRepositoryTag(image)
+	repository, tag := docker.ParseRepositoryTag(image)
 	if tag == "" {
 		repository = repository + ":" + dockerDefaultTag
 	} else {
@@ -331,7 +331,33 @@ func (dg *dockerGoClient) createContainer(ctx context.Context, config *docker.Co
 		return DockerContainerMetadata{Error: CannotGetDockerClientError{version: dg.version, err: err}}
 	}
 
-	containerOptions := docker.CreateContainerOptions{Config: config, HostConfig: hostConfig, Name: name}
+	var network string
+	for _, env := range config.Env {
+		if strings.HasPrefix(env, "ECS_NETWORK=") {
+			network = strings.TrimPrefix(env, "ECS_NETWORK=")
+			break
+		}
+	}
+
+	networkingConfig := docker.NetworkingConfig{}
+	if network != "" {
+		var aliases []string
+		for _, env := range config.Env {
+			if strings.HasPrefix(env, "ECS_NETWORK_ALIAS=") {
+				aliases = append(aliases, strings.TrimPrefix(env, "ECS_NETWORK_ALIAS="))
+			}
+		}
+
+		if aliases != nil && len(aliases) > 0 {
+			endpointsConfig := make(map[string]*docker.EndpointConfig)
+			endpointsConfig[network] = &docker.EndpointConfig{
+				Aliases: aliases,
+			}
+			networkingConfig.EndpointsConfig = endpointsConfig
+		}
+	}
+
+	containerOptions := docker.CreateContainerOptions{Config: config, HostConfig: hostConfig, Name: name, NetworkingConfig: &networkingConfig}
 	dockerContainer, err := client.CreateContainer(containerOptions)
 	select {
 	case <-ctx.Done():
