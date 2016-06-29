@@ -310,11 +310,20 @@ func (task *Task) dockerHostConfig(container *Container, dockerContainerMap map[
 		return nil, &HostConfigError{err.Error()}
 	}
 
+	networkMode := "bridge"
+	for envKey, envVal := range container.Environment {
+		if envKey == "ECS_NETWORK" {
+			networkMode = envVal
+			break
+		}
+	}
+
 	hostConfig := &docker.HostConfig{
 		Links:        dockerLinkArr,
 		Binds:        binds,
 		PortBindings: dockerPortMap,
 		VolumesFrom:  volumesFrom,
+		NetworkMode:  networkMode,
 	}
 
 	if container.DockerConfig.HostConfig != nil {
