@@ -25,11 +25,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/agent/logger"
-	"github.com/aws/amazon-ecs-agent/agent/sighandlers/exitcodes"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/sighandlers/exitcodes"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 )
 
 var log = logger.ForModule("TerminationHandler")

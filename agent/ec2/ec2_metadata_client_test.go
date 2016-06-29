@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/ec2"
-	"github.com/aws/amazon-ecs-agent/agent/ec2/mocks"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ec2"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ec2/mocks"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 	"github.com/golang/mock/gomock"
 )
 

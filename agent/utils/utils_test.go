@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 )
 
 func TestDefaultIfBlank(t *testing.T) {

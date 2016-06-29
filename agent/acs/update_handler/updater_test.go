@@ -22,15 +22,15 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/aws/amazon-ecs-agent/agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/agent/acs/update_handler/os/mock"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/agent/httpclient"
-	"github.com/aws/amazon-ecs-agent/agent/httpclient/mock"
-	"github.com/aws/amazon-ecs-agent/agent/sighandlers/exitcodes"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
-	mock_client "github.com/aws/amazon-ecs-agent/agent/wsclient/mock"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/acs/model/ecsacs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/acs/update_handler/os/mock"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/httpclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/httpclient/mock"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/sighandlers/exitcodes"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager"
+	mock_client "github.com/adamrbennett/amazon-ecs-agent/agent/wsclient/mock"
 )
 
 func ptr(i interface{}) interface{} {

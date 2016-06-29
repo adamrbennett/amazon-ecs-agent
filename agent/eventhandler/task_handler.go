@@ -17,8 +17,8 @@ import (
 	"container/list"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 )
 
 var handler *taskHandler

@@ -13,7 +13,7 @@
 
 package handlers
 
-import "github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+import "github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerstate"
 
 type MetadataResponse struct {
 	Cluster              string

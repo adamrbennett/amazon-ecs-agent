@@ -21,13 +21,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/aws/amazon-ecs-agent/agent/handlers/mocks"
-	"github.com/aws/amazon-ecs-agent/agent/handlers/mocks/http"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	"github.com/aws/amazon-ecs-agent/agent/utils/mocks"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/handlers/mocks"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/handlers/mocks/http"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/mocks"
 	"github.com/golang/mock/gomock"
 )
 

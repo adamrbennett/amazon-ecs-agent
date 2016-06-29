@@ -14,7 +14,7 @@
 package engine
 
 import "fmt"
-import "github.com/aws/amazon-ecs-agent/agent/api"
+import "github.com/adamrbennett/amazon-ecs-agent/agent/api"
 
 type ContainerNotFound struct {
 	TaskArn       string

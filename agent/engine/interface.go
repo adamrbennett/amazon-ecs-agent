@@ -16,8 +16,8 @@ package engine
 import (
 	"encoding/json"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager"
 )
 
 type TaskEngine interface {

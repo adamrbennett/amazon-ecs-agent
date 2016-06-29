@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerstate"
 )
 
 func createTestContainer(num int) *api.Container {

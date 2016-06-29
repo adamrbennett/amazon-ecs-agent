@@ -1,8 +1,8 @@
 # Contributing to the Amazon ECS Agent
 
 Contributions to the Amazon ECS Agent should be made via GitHub [pull
-requests](https://github.com/aws/amazon-ecs-agent/pulls) and discussed using
-GitHub [issues](https://github.com/aws/amazon-ecs-agent/issues).
+requests](https://github.com/adamrbennett/amazon-ecs-agent/pulls) and discussed using
+GitHub [issues](https://github.com/adamrbennett/amazon-ecs-agent/issues).
 
 ### Before you start
 

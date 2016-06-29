@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/ec2"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ec2"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 	docker "github.com/fsouza/go-dockerclient"
 )
 
@@ -954,7 +954,7 @@ func TestSweepContainer(t *testing.T) {
 }
 
 // This integ test is meant to validate the docker assumptions related to
-// https://github.com/aws/amazon-ecs-agent/issues/261
+// https://github.com/adamrbennett/amazon-ecs-agent/issues/261
 // Namely, this test verifies that Docker does emit a 'die' event after an OOM
 // event if the init dies.
 // Note: Your kernel must support swap limits in order for this test to run.

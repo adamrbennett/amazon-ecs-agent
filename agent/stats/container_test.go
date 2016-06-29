@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
+	ecsengine "github.com/adamrbennett/amazon-ecs-agent/agent/engine"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/mock/gomock"
 	"golang.org/x/net/context"

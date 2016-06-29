@@ -18,7 +18,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 )
 
 func (ts *TaskStatus) UnmarshalJSON(b []byte) error {

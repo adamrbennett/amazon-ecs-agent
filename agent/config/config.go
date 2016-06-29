@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/ec2"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ec2"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 	"github.com/cihub/seelog"
 )
 

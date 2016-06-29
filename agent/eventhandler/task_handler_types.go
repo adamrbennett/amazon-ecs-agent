@@ -17,8 +17,8 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 )
 
 // Maximum number of tasks that may be handled at once by the taskHandler

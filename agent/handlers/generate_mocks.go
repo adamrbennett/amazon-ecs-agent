@@ -14,4 +14,4 @@
 package handlers
 
 //go:generate mockgen.sh net/http ResponseWriter mocks/http/handlers_mocks.go
-//go:generate mockgen.sh github.com/aws/amazon-ecs-agent/agent/handlers DockerStateResolver mocks/handlers_mocks.go
+//go:generate mockgen.sh github.com/adamrbennett/amazon-ecs-agent/agent/handlers DockerStateResolver mocks/handlers_mocks.go

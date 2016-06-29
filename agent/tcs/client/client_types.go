@@ -22,7 +22,7 @@ package tcsclient
 import (
 	"reflect"
 
-	"github.com/aws/amazon-ecs-agent/agent/tcs/model/ecstcs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/tcs/model/ecstcs"
 )
 
 var tcsTypeMappings map[string]reflect.Type

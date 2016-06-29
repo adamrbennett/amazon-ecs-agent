@@ -13,7 +13,7 @@
 
 package tcsclient
 
-import "github.com/aws/amazon-ecs-agent/agent/wsclient"
+import "github.com/adamrbennett/amazon-ecs-agent/agent/wsclient"
 
 const errType = "TCSError"
 

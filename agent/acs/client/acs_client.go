@@ -21,8 +21,8 @@ package acsclient
 import (
 	"errors"
 
-	"github.com/aws/amazon-ecs-agent/agent/logger"
-	"github.com/aws/amazon-ecs-agent/agent/wsclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/wsclient"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 )
 

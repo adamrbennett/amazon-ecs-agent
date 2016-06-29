@@ -13,7 +13,7 @@
 
 package stats
 
-//go:generate mockgen.sh github.com/aws/amazon-ecs-agent/agent/stats Engine mock/$GOFILE
+//go:generate mockgen.sh github.com/adamrbennett/amazon-ecs-agent/agent/stats Engine mock/$GOFILE
 
 import (
 	"fmt"
@@ -21,12 +21,12 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/agent/logger"
-	"github.com/aws/amazon-ecs-agent/agent/stats/resolver"
-	"github.com/aws/amazon-ecs-agent/agent/tcs/model/ecstcs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	ecsengine "github.com/adamrbennett/amazon-ecs-agent/agent/engine"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/stats/resolver"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/tcs/model/ecstcs"
 	"github.com/aws/aws-sdk-go/aws"
 	"golang.org/x/net/context"
 )

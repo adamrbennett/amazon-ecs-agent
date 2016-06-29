@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockeriface"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockeriface/mocks"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockeriface"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockeriface/mocks"
 	"github.com/golang/mock/gomock"
 )
 

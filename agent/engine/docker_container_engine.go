@@ -23,14 +23,14 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/ecr"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerauth"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockeriface"
-	"github.com/aws/amazon-ecs-agent/agent/engine/emptyvolume"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ecr"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerauth"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockeriface"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/emptyvolume"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 	"github.com/cihub/seelog"
 	"github.com/docker/docker/pkg/parsers"
 

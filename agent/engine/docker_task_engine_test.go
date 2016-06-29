@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/engine/testdata"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager/mocks"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/testdata"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager/mocks"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 	"github.com/golang/mock/gomock"
 )
 

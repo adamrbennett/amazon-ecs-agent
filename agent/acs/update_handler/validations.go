@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/agent/acs/model/ecsacs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/acs/model/ecsacs"
 )
 
 func validateUpdateInfo(updateInfo *ecsacs.UpdateInfo) error {

@@ -32,7 +32,7 @@ golang-base:
 # directory
 build-in-docker: golang-base
 	@docker build -f scripts/dockerfiles/Dockerfile.build -t "amazon/amazon-ecs-agent-build:make" .
-	@docker run --net=none -v "$(shell pwd)/out:/out" -v "$(shell pwd):/go/src/github.com/aws/amazon-ecs-agent" "amazon/amazon-ecs-agent-build:make"
+	@docker run --net=none -v "$(shell pwd)/out:/out" -v "$(shell pwd):/go/src/github.com/adamrbennett/amazon-ecs-agent" "amazon/amazon-ecs-agent-build:make"
 
 # 'docker' builds the agent dockerfile from the current sourcecode tree, dirty
 # or not
@@ -75,7 +75,7 @@ test: test-registry gremlin
 test-in-docker:
 	docker build -f scripts/dockerfiles/Dockerfile.test -t "amazon/amazon-ecs-agent-test:make" .
 	# Privileged needed for docker-in-docker so integ tests pass
-	docker run -v "$(shell pwd):/go/src/github.com/aws/amazon-ecs-agent" --privileged "amazon/amazon-ecs-agent-test:make"
+	docker run -v "$(shell pwd):/go/src/github.com/adamrbennett/amazon-ecs-agent" --privileged "amazon/amazon-ecs-agent-test:make"
 
 run-functional-tests: test-registry
 	. ./scripts/shared_env && go test -tags functional -timeout=30m -v ./agent/functional_tests/...

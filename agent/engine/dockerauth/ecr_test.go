@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/ecr/mocks"
-	ecrapi "github.com/aws/amazon-ecs-agent/agent/ecr/model/ecr"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ecr/mocks"
+	ecrapi "github.com/adamrbennett/amazon-ecs-agent/agent/ecr/model/ecr"
 	"github.com/aws/aws-sdk-go/aws"
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/golang/mock/gomock"

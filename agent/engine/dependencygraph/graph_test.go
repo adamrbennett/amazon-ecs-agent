@@ -16,7 +16,7 @@ package dependencygraph
 import (
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
 )
 
 func volumeStrToVol(vols []string) []api.VolumeFrom {

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	ecrapi "github.com/aws/amazon-ecs-agent/agent/ecr/model/ecr"
-	"github.com/aws/amazon-ecs-agent/agent/httpclient"
+	ecrapi "github.com/adamrbennett/amazon-ecs-agent/agent/ecr/model/ecr"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/httpclient"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 )

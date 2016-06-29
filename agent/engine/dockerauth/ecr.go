@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/ecr"
-	ecrapi "github.com/aws/amazon-ecs-agent/agent/ecr/model/ecr"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ecr"
+	ecrapi "github.com/adamrbennett/amazon-ecs-agent/agent/ecr/model/ecr"
 	"github.com/aws/aws-sdk-go/aws"
 	log "github.com/cihub/seelog"
 	docker "github.com/fsouza/go-dockerclient"

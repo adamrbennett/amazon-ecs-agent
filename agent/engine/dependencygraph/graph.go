@@ -16,8 +16,8 @@ package dependencygraph
 import (
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
 )
 
 var log = logger.ForModule("dependencygraph")

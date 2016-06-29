@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/engine"
-	engine_testutils "github.com/aws/amazon-ecs-agent/agent/engine/testutils"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine"
+	engine_testutils "github.com/adamrbennett/amazon-ecs-agent/agent/engine/testutils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager"
 )
 
 func TestStateManager(t *testing.T) {

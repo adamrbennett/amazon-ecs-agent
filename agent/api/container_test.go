@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 	"github.com/fsouza/go-dockerclient"
 )
 

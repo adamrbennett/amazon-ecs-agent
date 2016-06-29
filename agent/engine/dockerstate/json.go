@@ -17,7 +17,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
 )
 
 // These bits of information should be enough to reconstruct the entire

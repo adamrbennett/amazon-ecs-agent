@@ -14,7 +14,7 @@
 
 # This script is meant to make all package available in the 'canonical' location
 # when running on travis-ci
-if [[ ! -d "$HOME/gopath/src/github.com/aws/amazon-ecs-agent" ]]; then
+if [[ ! -d "$HOME/gopath/src/github.com/adamrbennett/amazon-ecs-agent" ]]; then
 	mkdir -p "$HOME/gopath/src/github.com/aws"
-	ln -s "$(pwd)" "$HOME/gopath/src/github.com/aws/amazon-ecs-agent"
+	ln -s "$(pwd)" "$HOME/gopath/src/github.com/adamrbennett/amazon-ecs-agent"
 fi

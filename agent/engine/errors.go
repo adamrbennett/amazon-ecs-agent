@@ -16,8 +16,8 @@ package engine
 import (
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerclient"
 )
 
 // impossibleTransitionError is an error that occurs when an event causes a

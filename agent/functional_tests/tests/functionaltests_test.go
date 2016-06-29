@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/ecs_client/model/ecs"
-	. "github.com/aws/amazon-ecs-agent/agent/functional_tests/util"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/ecs_client/model/ecs"
+	. "github.com/adamrbennett/amazon-ecs-agent/agent/functional_tests/util"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"

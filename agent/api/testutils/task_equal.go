@@ -13,7 +13,7 @@
 
 package testutils
 
-import "github.com/aws/amazon-ecs-agent/agent/api"
+import "github.com/adamrbennett/amazon-ecs-agent/agent/api"
 
 // TasksEqual determines if the lhs and rhs tasks are equal for the definition
 // of having the same family, version, statuses, and equal containers.

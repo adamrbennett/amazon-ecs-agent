@@ -16,7 +16,7 @@ package acsclient
 import (
 	"reflect"
 
-	"github.com/aws/amazon-ecs-agent/agent/acs/model/ecsacs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/acs/model/ecsacs"
 )
 
 var acsTypeMappings map[string]reflect.Type

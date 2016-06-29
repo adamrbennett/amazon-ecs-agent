@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
-	mock_resolver "github.com/aws/amazon-ecs-agent/agent/stats/resolver/mock"
-	"github.com/aws/amazon-ecs-agent/agent/tcs/model/ecstcs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	ecsengine "github.com/adamrbennett/amazon-ecs-agent/agent/engine"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager"
+	mock_resolver "github.com/adamrbennett/amazon-ecs-agent/agent/stats/resolver/mock"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/tcs/model/ecstcs"
 	"github.com/golang/mock/gomock"
 	"golang.org/x/net/context"
 )

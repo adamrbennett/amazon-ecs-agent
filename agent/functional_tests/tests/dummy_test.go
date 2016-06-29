@@ -16,7 +16,7 @@ package functional_tests
 import (
 	"testing"
 
-	_ "github.com/aws/amazon-ecs-agent/agent/ecs_client/model/ecs"
+	_ "github.com/adamrbennett/amazon-ecs-agent/agent/ecs_client/model/ecs"
 	_ "github.com/aws/aws-sdk-go/service/ec2"
 )
 

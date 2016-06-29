@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/api/mocks"
-	"github.com/aws/amazon-ecs-agent/agent/tcs/client"
-	"github.com/aws/amazon-ecs-agent/agent/tcs/model/ecstcs"
-	"github.com/aws/amazon-ecs-agent/agent/wsclient"
-	"github.com/aws/amazon-ecs-agent/agent/wsclient/mock/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api/mocks"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/tcs/client"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/tcs/model/ecstcs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/wsclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/wsclient/mock/utils"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/golang/mock/gomock"
 )

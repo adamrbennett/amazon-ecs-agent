@@ -16,8 +16,8 @@
 package engine
 
 import (
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
 )
 
 var log = logger.ForModule("TaskEngine")

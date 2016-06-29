@@ -16,7 +16,7 @@ package stats
 import (
 	"time"
 
-	ecsengine "github.com/aws/amazon-ecs-agent/agent/engine"
+	ecsengine "github.com/adamrbennett/amazon-ecs-agent/agent/engine"
 	"github.com/cihub/seelog"
 	"golang.org/x/net/context"
 )

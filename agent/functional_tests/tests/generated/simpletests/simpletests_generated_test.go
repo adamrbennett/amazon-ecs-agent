@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/aws/amazon-ecs-agent/agent/functional_tests/util"
+	. "github.com/adamrbennett/amazon-ecs-agent/agent/functional_tests/util"
 )
 
 // TestDataVolume Check that basic data volumes work

@@ -16,7 +16,7 @@ package dockerclient
 import (
 	"sync"
 
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockeriface"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockeriface"
 	log "github.com/cihub/seelog"
 	docker "github.com/fsouza/go-dockerclient"
 )

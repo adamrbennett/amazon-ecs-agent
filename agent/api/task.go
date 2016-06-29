@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/acs/model/ecsacs"
-	"github.com/aws/amazon-ecs-agent/agent/engine/emptyvolume"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/acs/model/ecsacs"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/emptyvolume"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 	"github.com/aws/aws-sdk-go/private/protocol/json/jsonutil"
 	"github.com/fsouza/go-dockerclient"
 )

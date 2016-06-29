@@ -33,8 +33,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/logger"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/private/protocol/json/jsonutil"
 	"github.com/gorilla/websocket"
@@ -96,7 +96,7 @@ type ClientServer interface {
 	io.Closer
 }
 
-//go:generate mockgen.sh github.com/aws/amazon-ecs-agent/agent/wsclient ClientServer mock/$GOFILE
+//go:generate mockgen.sh github.com/adamrbennett/amazon-ecs-agent/agent/wsclient ClientServer mock/$GOFILE
 
 // ClientServerImpl wraps commonly used methods defined in ClientServer interface.
 type ClientServerImpl struct {

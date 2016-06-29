@@ -27,11 +27,11 @@ EOW
 [ ! -z "$(git status --porcelain)" ] && echo "$DIRTY_WARNING"
 
 # Fresh clone to ensure our build doesn't rely on anything outside of vcs
-git clone --quiet /src/amazon-ecs-agent /go/src/github.com/aws/amazon-ecs-agent
+git clone --quiet /src/amazon-ecs-agent /go/src/github.com/adamrbennett/amazon-ecs-agent
 
 # Allows the build to be marked as 'clean' so we can distinguish a properly
 # created build.
 export ECS_RELEASE="cleanbuild"
 
-cd /go/src/github.com/aws/amazon-ecs-agent
+cd /go/src/github.com/adamrbennett/amazon-ecs-agent
 exec ./scripts/build true /out

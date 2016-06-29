@@ -22,7 +22,7 @@ A user should set the "EngineAuthType" and "EngineAuthData" configuration
 keys to values indicated below.
 
 These keys may be set by either setting the environment variables
-"ECS_ENGINE_AUTH_TYPE" and "ECS_ENGINE_AUTH_DATA" or by setting the keys "EngineAuthData" and "EngineAuthType" in the JSON configuration file located at the configured "ECS_AGENT_CONFIG_FILE_PATH" (see http://godoc.org/github.com/aws/amazon-ecs-agent/agent/config)
+"ECS_ENGINE_AUTH_TYPE" and "ECS_ENGINE_AUTH_DATA" or by setting the keys "EngineAuthData" and "EngineAuthType" in the JSON configuration file located at the configured "ECS_AGENT_CONFIG_FILE_PATH" (see http://godoc.org/github.com/adamrbennett/amazon-ecs-agent/agent/config)
 
 Auth Types
 

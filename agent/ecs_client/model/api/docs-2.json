@@ -798,7 +798,7 @@
         "UpdateServiceRequest$service": "<p>The name of the service that you want to update.</p>",
         "UpdateServiceRequest$taskDefinition": "<p>The <code>family</code> and <code>revision</code> (<code>family:revision</code>) or full Amazon Resource Name (ARN) of the task definition that you want to run in your service. If a <code>revision</code> is not specified, the latest <code>ACTIVE</code> revision is used. If you modify the task definition with <code>UpdateService</code>, Amazon ECS spawns a task with the new version of the task definition and then stops an old task after the new version is running.</p>",
         "VersionInfo$agentVersion": "<p>The version number of the Amazon ECS container agent.</p>",
-        "VersionInfo$agentHash": "<p>The Git commit hash for the Amazon ECS container agent build on the <a href=\"https://github.com/aws/amazon-ecs-agent/commits/master\">amazon-ecs-agent </a> GitHub repository.</p>",
+        "VersionInfo$agentHash": "<p>The Git commit hash for the Amazon ECS container agent build on the <a href=\"https://github.com/adamrbennett/amazon-ecs-agent/commits/master\">amazon-ecs-agent </a> GitHub repository.</p>",
         "VersionInfo$dockerVersion": "<p>The Docker version running on the container instance.</p>",
         "Volume$name": "<p>The name of the volume. This name is referenced in the <code>sourceVolume</code> parameter of container definition <code>mountPoints</code>.</p>",
         "VolumeFrom$sourceContainer": "<p>The name of the container to mount volumes from.</p>"

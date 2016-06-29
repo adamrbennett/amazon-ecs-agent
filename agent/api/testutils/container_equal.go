@@ -19,8 +19,8 @@ package testutils
 import (
 	"reflect"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
 )
 
 // ContainersEqual determines if this container is equal to another container.

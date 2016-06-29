@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aws/amazon-ecs-agent/agent/version"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/version"
 )
 
 const defaultTimeout = 10 * time.Minute

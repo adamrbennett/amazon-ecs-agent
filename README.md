@@ -92,7 +92,7 @@ configure them as something other than the defaults.
 | `ECS_RESERVED_PORTS` | `[22, 80, 5000, 8080]` | An array of ports that should be marked as unavailable for scheduling on this Container Instance. | `[22, 2375, 2376, 51678]` |
 | `ECS_RESERVED_PORTS_UDP` | `[53, 123]` | An array of UDP ports that should be marked as unavailable for scheduling on this Container Instance. | `[]` |
 | `ECS_ENGINE_AUTH_TYPE`     |  "docker" &#124; "dockercfg" | What type of auth data is stored in the `ECS_ENGINE_AUTH_DATA` key | |
-| `ECS_ENGINE_AUTH_DATA`     | See [documentation](https://godoc.org/github.com/aws/amazon-ecs-agent/agent/engine/dockerauth) | Docker [auth data](https://godoc.org/github.com/aws/amazon-ecs-agent/agent/engine/dockerauth) formatted as defined by `ECS_ENGINE_AUTH_TYPE`. | |
+| `ECS_ENGINE_AUTH_DATA`     | See [documentation](https://godoc.org/github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerauth) | Docker [auth data](https://godoc.org/github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerauth) formatted as defined by `ECS_ENGINE_AUTH_TYPE`. | |
 | `AWS_DEFAULT_REGION` | &lt;us-west-2&gt;&#124;&lt;us-east-1&gt;&#124;&hellip; | The region to be used in API requests as well as to infer the correct backend host. | Taken from EC2 Instance Metadata |
 | `AWS_ACCESS_KEY_ID` | AKIDEXAMPLE             | The [Access Key](http://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) used by the agent for all calls. | Taken from EC2 Instance Metadata |
 | `AWS_SECRET_ACCESS_KEY` | EXAMPLEKEY | The [Secret Key](http://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) used by the agent for all calls. | Taken from EC2 Instance Metadata |
@@ -133,7 +133,7 @@ agent will output on stdout at the given level. This is overridden by the
 
 Contributions and feedback are welcome! Proposals and Pull Requests will be
 considered and responded to. Please see the
-[CONTRIBUTING.md](https://github.com/aws/amazon-ecs-agent/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/adamrbennett/amazon-ecs-agent/blob/master/CONTRIBUTING.md)
 file for more information.
 
 Amazon Web Services does not currently provide support for modified copies of

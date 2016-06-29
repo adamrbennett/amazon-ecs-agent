@@ -22,13 +22,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/aws/amazon-ecs-agent/agent/api"
-	"github.com/aws/amazon-ecs-agent/agent/config"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerclient"
-	"github.com/aws/amazon-ecs-agent/agent/engine/dockerstate"
-	"github.com/aws/amazon-ecs-agent/agent/statemanager"
-	"github.com/aws/amazon-ecs-agent/agent/utils"
-	utilsync "github.com/aws/amazon-ecs-agent/agent/utils/sync"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/api"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/config"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerclient"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/engine/dockerstate"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/statemanager"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils"
+	utilsync "github.com/adamrbennett/amazon-ecs-agent/agent/utils/sync"
 	"github.com/cihub/seelog"
 )
 

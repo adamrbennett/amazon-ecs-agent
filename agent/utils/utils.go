@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aws/amazon-ecs-agent/agent/logger"
-	"github.com/aws/amazon-ecs-agent/agent/utils/ttime"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/logger"
+	"github.com/adamrbennett/amazon-ecs-agent/agent/utils/ttime"
 )
 
 var log = logger.ForModule("util")
